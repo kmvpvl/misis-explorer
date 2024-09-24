@@ -1,0 +1,26 @@
+:root {
+  --text-color: #3f3f3f;
+  --background-color: #FFFFFF;
+}    
+:root {
+  --joy-color:#edc500;
+  --trust-color:#7abd0d;
+  --fear-color: #007b33;
+  --surprise-color: #0080ab;
+  --sadness-color: #1f6dad;
+  --disgust-color: #7b4ea3;
+  --anger-color: #dc0047;
+  --anticipation-color: #e87200;
+}
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  font-family: "UbuntuMono", monospace;
+}
+
+button {
+  font-size: larger;
+}

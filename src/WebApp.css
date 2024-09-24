@@ -1,0 +1,12 @@
+.webapp-container {
+    padding: 1em;
+}
+img {
+    width: 100%;
+}
+
+.header {
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+}
