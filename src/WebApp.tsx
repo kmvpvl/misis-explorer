@@ -16,11 +16,11 @@ export default class WebApp extends React.Component <IWebAppProps, IWebAppState>
     render(): ReactNode {
         return <div className="webapp-container">
             <div className="header">Добро пожаловать в МИСИС!</div>
-            <div><img src="game.png"/></div>
-            <div><img src="history.png"/></div>
-            <div><img src="video.png"/></div>
-            <div><iframe src="https://uploads.knightlab.com/storymapjs/1ae305a744ae7e34e716eda34da8ee2d/misis/index.html" width="100%" height="800"></iframe></div>
-            <div><img src="footer.png"/></div>
+            <div><img src="game.png" alt=""/></div>
+            <div><img src="history.png" alt=""/></div>
+            <div><img src="video.png" alt=""/></div>
+            <div><iframe src="https://uploads.knightlab.com/storymapjs/a34d00df6a6590f5bcdd4fd5a1e75f43/navigatsiia/draft.html" width="100%" height="800"></iframe></div>
+            <div><img src="footer.png" alt=""/></div>
         </div>
     }
 }
